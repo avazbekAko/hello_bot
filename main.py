@@ -4,7 +4,7 @@ import time
 
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardRemove
 
-BOT_TOKEN = '5190238051:AAEPFIc1NmGfY2uS7eheO0G5plWEzG_r2WM'
+BOT_TOKEN = '5009162225:AAERkKTZ1im3YBvKuNFF3rEp_EvzJYrSXb4'
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -47,9 +47,7 @@ text_RU_EN = '''Бесплатная регистрация
 👫 Пригласите друга в тот же день, чтобы зарегистрироваться и пополнить 1000 USDT, получите 20 USDT в свой БОНУС Binance.
 ⬇️Ссылка на игру⬇️
 https://h5.otw60.com/#/?code=SJG42B
-
 =========================
-
 Free registration 
 💰$12 signup bonus
 🔝Top Up your balance from 100 USDT, get bonuses, rewards and 💵earn a lot of money💰
