@@ -98,6 +98,10 @@ def admin(message):
 	if message.chat.id in admin_ids:
 		bot.send_message(message.chat.id, 'Админ Панель', reply_markup=murkup_admin)
 
+@bot.message_handler(commands='test')
+def admin(message):
+	bot.send_message(message.chat.id, 'Hello')
+
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback(call):
