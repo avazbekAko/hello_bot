@@ -1,2 +1,2 @@
 PyTelegramBotAPI
-QiwiP2P
+pyqiwip2p
