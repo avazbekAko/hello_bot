@@ -1,2 +1,4 @@
-PyTelegramBotAPI
+aiogram
+logging
+mysqlclient
 pyqiwip2p
