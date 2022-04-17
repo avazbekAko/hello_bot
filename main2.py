@@ -24,7 +24,7 @@ p2p = QiwiP2P(auth_key=QIWI_TOKEN)
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 logging.basicConfig(level=logging.INFO)
-connection_mysql = MySQLdb.connect(host='localhost', user='root', password='TeleBot@2022@ok', db='t_bot')
+connection_mysql = MySQLdb.connect(host='hello-bot-2.cuwvgtlehzke.us-east-1.rds.amazonaws.com', user='admin', password='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', db='bot')
 with connection_mysql as mydb:
     cur = mydb.cursor()
     command = cur.execute('SELECT price FROM info;').fetchone()[0]
